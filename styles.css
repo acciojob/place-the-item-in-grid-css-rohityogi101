@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+.holder{
+    display: flex;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
